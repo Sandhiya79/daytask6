@@ -1,0 +1,21 @@
+print("****DAY TASK 6****")
+print("<<<Demonstrate using list>>>")
+num=[]
+n=int(input("How many numbers:"))
+for i in range(n):
+    num.append(int(input('Enter number:')))
+print("\n\nGiven list:",num)
+print("\nInserting into the list")
+print("Enter number and position to list")
+pos=int(input('Enter the position'))
+n1=int(input('Enter the number'))
+num.insert(pos,n1)
+print("After insertion:",num)
+print("\nRemoving a element from list")
+n1=int(input("Enter the element"))
+num.remove(n1)
+print("After deletion element:",num)
+print("\n\nLargest and Smallest number in the list")
+print("\nLargest number:",max(num))
+print("\nSmallest number:",min(num))
+               
