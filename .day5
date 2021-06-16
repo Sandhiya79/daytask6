@@ -1,0 +1,11 @@
+#Creating tuple and convert reverse tuple the created tuple
+my_tuple=('s','a','n','d','h','i','y','a')
+print(my_tuple)
+print(tuple(reversed(my_tuple)))
+
+
+#Creating a tuple and convert tuple into list
+atuple=('B','O','O','T','C','A','M','P')
+print(atuple)
+blist=list(atuple)
+print(blist)
